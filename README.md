@@ -44,3 +44,11 @@ Se você quiser replicar este projeto na sua máquina, siga os passos abaixo:
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/](https://github.com/)[seu-usuario]/sql-ecommerce-analytics.git
+
+   Abra o seu SSMS (SQL Server Management Studio) ou Azure Data Studio.
+
+2. Execute o script 01_schema.sql para criar o banco de dados e as tabelas.
+
+3. Execute o script 02_mock_data.sql para popular as tabelas com dados fictícios.
+
+4. Abra e rode o script 03_business_queries.sql para visualizar os insights.
